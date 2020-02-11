@@ -7,12 +7,7 @@
 
 Todo App using ionic/vue
 
-
-
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover3.jpg"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover4.jpg"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover5.jpg"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover6.jpg"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover7.jpg"  />
 
 ## Code Coverage
 
