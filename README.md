@@ -5,7 +5,7 @@ Todo App using ionic/vue
 
   
 
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Capture.PNG"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Capture2.PNG"  />
 
   
 
