@@ -1,51 +1,54 @@
 <template>
-  <div class="ion-page">
+  <div>
+    <div class="ion-page">
 
-    <header-component title="TODO APP" />
+        <header-component title="TODO APP" />
 
-    <ion-content class="ion-padding"  center text-center>
+        <ion-content class="ion-padding"  center text-center>
 
-      <!-- List of Text Items -->
-      <ion-list>
+          <!-- List of Text Items -->
+          <ion-list>
 
-        <!-- Sliding item with text options on both sides -->
-        <ion-item-sliding v-for="list in todos" :key="list.id">
+            <!-- Sliding item with text options on both sides -->
+            <ion-item-sliding v-for="list in todos" :key="list.id">
 
-          <ion-item>
-            <ion-checkbox slot="start" :checked="list.done" @click="toggleTodo(list)"></ion-checkbox>
-            <ion-label>{{list.title}}</ion-label>
-          </ion-item>
+              <ion-item>
+                <ion-checkbox slot="start" :checked="list.done" @click="toggleTodo(list)"></ion-checkbox>
+                <ion-label>{{list.title}}</ion-label>
+              </ion-item>
 
-          <ion-item-options side="end">
-            <ion-item-option color="danger" @click="deleteTodo(list)">
-              <ion-icon slot="icon-only" name="trash"></ion-icon>
-            </ion-item-option>
-            <ion-item-option>
-                <ion-icon slot="icon-only" name="create" @click="gotoEditTodo(list)"></ion-icon>
-            </ion-item-option>
-          </ion-item-options>
+              <ion-item-options side="end">
+                <ion-item-option color="danger" @click="deleteTodo(list)">
+                  <ion-icon slot="icon-only" name="trash"></ion-icon>
+                </ion-item-option>
+                <ion-item-option>
+                    <ion-icon slot="icon-only" name="create" @click="gotoEditTodo(list)"></ion-icon>
+                </ion-item-option>
+              </ion-item-options>
 
-        </ion-item-sliding>
+            </ion-item-sliding>
 
-      </ion-list>
+          </ion-list>
 
-      <ion-label v-if="todos.length == 0">No todo(s) found!</ion-label>
+          <ion-label v-if="todos.length == 0">No todo(s) found!</ion-label>
 
-      <!-- Fixed Floating Action Button that does not scroll with the content -->
-      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-        <router-link to="/new">
-          <ion-fab-button>
-            <ion-icon name="add"></ion-icon>
-          </ion-fab-button>
-        </router-link>
-      </ion-fab>
-      
-    </ion-content>
+          <!-- Fixed Floating Action Button that does not scroll with the content -->
+          <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+            <router-link to="/new">
+              <ion-fab-button>
+                <ion-icon name="add"></ion-icon>
+              </ion-fab-button>
+            </router-link>
+          </ion-fab>
+          
+        </ion-content>
 
 
-    <footer-component />
+        <footer-component />
 
+      </div>
   </div>
+ 
 </template>
 
 <script>

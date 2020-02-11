@@ -1,11 +1,18 @@
 <template>
     <ion-header>
         <ion-toolbar>
-            <ion-buttons >
-            <ion-back-button></ion-back-button>
+
+            <ion-buttons slot="start" >
+                <ion-back-button></ion-back-button>
             </ion-buttons>
             
             <ion-title> {{title}} </ion-title>
+
+            
+            <ion-buttons slot="end">
+                <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+                
         </ion-toolbar>
     </ion-header>
 </template>

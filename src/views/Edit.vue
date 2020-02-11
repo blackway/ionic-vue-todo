@@ -55,7 +55,6 @@ export default {
     created() {
         this.todoId = this.$route.params.id;
         this.$store.dispatch('findTodo', this.todoId);
-        console.log(this.todo);
     }
 }
 </script>
