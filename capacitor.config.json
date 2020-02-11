@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ionic-vue-todo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {}
+}
