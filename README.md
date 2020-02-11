@@ -9,10 +9,10 @@ Todo App using ionic/vue
 
 
 
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover3.JPG"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover4.JPG"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover5.JPG"  />
-<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover6.JPG"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover3.jpg"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover4.jpg"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover5.jpg"  />
+<img  src="https://github.com/sgflores/ionic-vue-todo/blob/master/public/Cover6.jpg"  />
 
 ## Code Coverage
 
